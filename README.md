@@ -27,3 +27,7 @@ All error reporting functions without `user_` prefix must not be used to display
 - `user_info {{description}}` - display user info note in the following format: `info: {{description}}`
 - `user_warn {{description}}` - display user warning note in the following format: `warn: {{description}}`
 - `user_error {{description}}` - display user error note in the following format: `error: {{description}}`
+
+#### Keywords coloring
+
+It's possible to change `info`, `warn` and `error` colors via the following environment variables: `INFO_FOREGROUND_COLOR`, `WARN_FOREGROUND_COLOR`, `ERROR_FOREGROUND_COLOR`, `INFO_BACKGROUND_COLOR`, `WARN_BACKGROUND_COLOR`, `ERROR_BACKGROUND_COLOR`.
